@@ -1,4 +1,4 @@
-<form name="my_form" action="processData(4_3_2).php" method="POST">
+<form name="my_form" action="processData.php" method="POST">
     <fieldset>
         <legend>Person Details</legend>
 

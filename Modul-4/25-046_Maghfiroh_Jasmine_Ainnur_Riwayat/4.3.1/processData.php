@@ -1,5 +1,5 @@
 <?php
-require 'validate(4_3_1).inc';
+require 'validate.inc';
 
 $errors = array();
 validateName($errors, $_POST, 'surname');

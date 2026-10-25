@@ -10,11 +10,11 @@ if (isset($_POST['surname'])) {
         foreach ($errors as $field => $error) {
             echo "$field $error</br>";
         }
-        include 'form(4_3_2).inc';
+        include 'form.inc';
     } else {
         echo 'Form submitted successfully with no errors';
     }
 } else {
-    include 'form(4_3_2).inc';
+    include 'form.inc';
 }
 ?>
